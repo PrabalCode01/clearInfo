@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Extractor Popup</title>
+
+    <link rel="stylesheet" href="popup.css" />
+    <script src="axios.min.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="clearINFO2.png" alt="header">
+    </div>
+    <div id="output"></div>
+    <div class="btns">
+        <button class="btn" id="captureBtn">Check User Interface Deception</button>
+        <button class="btn" id="textBtn">Check Urgency and Scarcity.</button>
+    </div>
+    <div class="res_box">
+        <div class="response"><span style="font-weight: bold; color:#007441;">User Interface Deception Report:</span><p id="response1"> will be generated here.....</p></div>
+        <div class="response"><span style="font-weight: bold; color:#007441;">Urgency and Scarcity Report:</span><p id="response2"> will be generated here.....</p></div>
+    </div>
+    <div class="report">
+        <div class="report_btn_group">
+            <button id="report_btn">Send Report</button>
+        </div>
+    </div>
+</body>
+</html>
